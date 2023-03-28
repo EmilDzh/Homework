@@ -1,0 +1,51 @@
+   0 зцв
+   1 pwd
+   2 cd /home
+   3 mk dir user
+   4 mkdir user
+   5 cd /home/user
+   6 mkdir start
+   7 cd /home/user/start
+   8 touch /home/user/start/1.txt
+   9 echo "Start"
+  10 echo "Start" > /home/user/start/1.txt
+  11 date
+  12 date >> /home/user/start/1.txt 
+  13 cd opt
+  14 cd /opt
+  15 mkdir task
+  16 cd /opt/task
+  17 mkdir Start.txt
+  18 cp /home/user/start/1.txt opt/task/Start.txt
+  19 cp /home/user/start/1.txt /opt/task/Start.txt
+  20 tree home
+  21 tree /home
+  22 tree /opt
+  23 cat /opt/task/Start.txt/1.txt
+  24 ls -al
+  25 ls -a/bin
+  26 ls -a/bin | tail -4
+  27 ls -a/bin | tail 4 
+  28 ls -a/bin | tail  
+  29 ls -a/bin | tail -4
+  30 ls -a /bin
+  31 ls -a /bin | tail -4
+  32 ls -a /bin | tail -4 >> /opt/task/Start.txt/1.txt
+  33 ls -a /boot
+  34 ls -a /dev
+  35 ls -a /dev | tail -4
+  36 ls -a /dev | tail -4 >> /opt/task/Start.txt/1.txt
+  37 ls -a /etc | tail -4 >> /opt/task/Start.txt/1.txt
+  38 ls -a /home | tail -4 >> /opt/task/Start.txt/1.txt
+  39 ls -a /lib | tail -4 >> /opt/task/Start.txt/1.txt
+  40 ls -a /lost+found | tail -4 >> /opt/task/Start.txt/1.txt
+  41 ls -a /misc | tail -4 >> /opt/task/Start.txt/1.txt
+  42 ls -a /opt | tail -4 >> /opt/task/Start.txt/1.txt
+  43 ls -a /proc | tail -4 >> /opt/task/Start.txt/1.txt
+  44 ls -a /root | tail -4 >> /opt/task/Start.txt/1.txt
+  45 ls -a /run | tail -4 >> /opt/task/Start.txt/1.txt
+  46 ls -a /sbin | tail -4 >> /opt/task/Start.txt/1.txt
+  47 ls -a /tmp | tail -4 >> /opt/task/Start.txt/1.txt
+  48 ls -a /usr | tail -4 >> /opt/task/Start.txt/1.txt
+  49 ls -a /var | tail -4 >> /opt/task/Start.txt/1.txt
+  50 history > /tmp/history.txt
