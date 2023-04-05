@@ -1,0 +1,145 @@
+Wed Apr  5 21:06:02 UTC 2023
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        1.9G     0  1.9G   0% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           1.9G  608K  1.9G   1% /run
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/nvme0n1p1   20G  9.1G   11G  46% /
+tmpfs           388M     0  388M   0% /run/user/1008
+	: AuthenticAMD
+	: AuthenticAMD
+root         1     0  0 Mar22 ?        00:06:54 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2     0  0 Mar22 ?        00:00:00 [kthreadd]
+root         3     2  0 Mar22 ?        00:00:00 [rcu_gp]
+root         4     2  0 Mar22 ?        00:00:00 [rcu_par_gp]
+root         6     2  0 Mar22 ?        00:00:00 [kworker/0:0H-ev]
+root         8     2  0 Mar22 ?        00:00:00 [mm_percpu_wq]
+root         9     2  0 Mar22 ?        00:00:00 [rcu_tasks_rude_]
+root        10     2  0 Mar22 ?        00:00:00 [rcu_tasks_trace]
+root        11     2  0 Mar22 ?        00:00:17 [ksoftirqd/0]
+root        12     2  0 Mar22 ?        00:02:46 [rcu_sched]
+root        13     2  0 Mar22 ?        00:00:06 [migration/0]
+root        15     2  0 Mar22 ?        00:00:00 [cpuhp/0]
+root        16     2  0 Mar22 ?        00:00:00 [cpuhp/1]
+root        17     2  0 Mar22 ?        00:00:06 [migration/1]
+root        18     2  0 Mar22 ?        00:00:17 [ksoftirqd/1]
+root        20     2  0 Mar22 ?        00:00:00 [kworker/1:0H-ev]
+root        23     2  0 Mar22 ?        00:00:00 [kdevtmpfs]
+root        24     2  0 Mar22 ?        00:00:00 [netns]
+root        26     2  0 Mar22 ?        00:00:07 [kauditd]
+root       304     2  0 Mar22 ?        00:00:00 [khungtaskd]
+root       305     2  0 Mar22 ?        00:00:00 [oom_reaper]
+root       306     2  0 Mar22 ?        00:00:00 [writeback]
+root       308     2  0 Mar22 ?        00:00:44 [kcompactd0]
+root       309     2  0 Mar22 ?        00:00:00 [ksmd]
+root       310     2  0 Mar22 ?        00:00:00 [khugepaged]
+280223     324 32764  0 20:51 ?        00:00:00 sshd: 280223@pts/0
+280223     325   324  0 20:51 pts/0    00:00:00 -bash
+root       365     2  0 Mar22 ?        00:00:00 [kintegrityd]
+root       366     2  0 Mar22 ?        00:00:00 [kblockd]
+root       368     2  0 Mar22 ?        00:00:00 [blkcg_punt_bio]
+root       477     2  0 Mar22 ?        00:00:00 [tpm_dev_wq]
+root       484     2  0 Mar22 ?        00:00:00 [md]
+root       489     2  0 Mar22 ?        00:00:00 [edac-poller]
+root       494     2  0 Mar22 ?        00:00:00 [watchdogd]
+root       586     2  0 Mar22 ?        00:00:11 [kworker/0:1H-xf]
+root       629     2  0 Mar22 ?        00:00:01 [kswapd0]
+root       631     2  0 Mar22 ?        00:00:00 [xfsalloc]
+root       632     2  0 Mar22 ?        00:00:00 [xfs_mru_cache]
+root       635     2  0 Mar22 ?        00:00:00 [kthrotld]
+root       677     2  0 Mar22 ?        00:00:00 [nvme-wq]
+root       678     2  0 Mar22 ?        00:00:00 [nvme-reset-wq]
+root       680     2  0 Mar22 ?        00:00:00 [nvme-delete-wq]
+root       716     2  0 Mar22 ?        00:00:00 [ipv6_addrconf]
+root       717     2  0 Mar22 ?        00:00:09 [kworker/1:1H-xf]
+root       726     2  0 Mar22 ?        00:00:00 [kstrp]
+root       736     2  0 Mar22 ?        00:00:00 [zswap-shrink]
+root       737     2  0 Mar22 ?        00:00:00 [kworker/u5:0]
+postfix   1070  2300  0 20:53 ?        00:00:00 local -t unix
+root      1185     2  0 Mar22 ?        00:00:00 [xfs-buf/nvme0n1]
+root      1186     2  0 Mar22 ?        00:00:00 [xfs-conv/nvme0n]
+root      1187     2  0 Mar22 ?        00:00:00 [xfs-cil/nvme0n1]
+root      1188     2  0 Mar22 ?        00:00:00 [xfs-reclaim/nvm]
+root      1189     2  0 Mar22 ?        00:00:00 [xfs-eofblocks/n]
+root      1190     2  0 Mar22 ?        00:00:00 [xfs-log/nvme0n1]
+root      1191     2  0 Mar22 ?        00:06:55 [xfsaild/nvme0n1]
+root      1254     1  0 Mar22 ?        00:02:45 /usr/lib/systemd/systemd-journald
+root      1650     1  0 Mar22 ?        00:00:00 /usr/sbin/lvmetad -f
+root      1654     1  0 Mar22 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root      1656     2  0 Mar22 ?        00:00:00 [ena]
+root      1701     1  0 Mar24 ?        00:44:01 /usr/bin/containerd
+root      1712     2  0 Mar22 ?        00:00:00 [cryptd]
+root      1717     1  0 Mar24 ?        00:06:29 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock --default-ulimit nofile=32768:65536
+root      1741     2  0 Mar24 ?        00:00:00 bpfilter_umh
+root      1819     2  0 Mar22 ?        00:00:00 [rpciod]
+root      1820     2  0 Mar22 ?        00:00:00 [xprtiod]
+root      1821     1  0 Mar22 ?        00:00:13 /sbin/auditd
+root      1847     1  0 Mar22 ?        00:02:05 /usr/lib/systemd/systemd-logind
+dbus      1852     1  0 Mar22 ?        00:04:41 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1864     1  0 Mar22 ?        00:00:25 /usr/sbin/irqbalance --foreground
+libstor+  1873     1  0 Mar22 ?        00:00:03 /usr/bin/lsmd -d
+root      1879     1  0 Mar22 ?        00:00:00 /usr/sbin/gssproxy -D
+chrony    1880     1  0 Mar22 ?        00:00:24 /usr/sbin/chronyd -F 2
+rpc       1882     1  0 Mar22 ?        00:00:02 /sbin/rpcbind -w
+rngd      1900     1  0 Mar22 ?        00:00:00 /sbin/rngd -f --fill-watermark=0 --exclude=jitter
+root      2109     1  0 Mar22 ?        00:00:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid -H ip-172-31-33-20 eth0
+root      2155     1  0 Mar22 ?        00:00:02 /sbin/dhclient -6 -nw -lf /var/lib/dhclient/dhclient6--eth0.lease -pf /var/run/dhclient6-eth0.pid eth0 -H ip-172-31-33-20
+root      2300     1  0 Mar22 ?        00:00:20 /usr/libexec/postfix/master -w
+postfix   2304  2300  0 Mar22 ?        00:00:29 qmgr -l -t unix -u
+root      2351     1  0 Mar22 ?        00:01:04 /usr/bin/amazon-ssm-agent
+root      2355     1  0 Mar22 ?        00:02:37 /usr/sbin/rsyslogd -n
+root      2367     1  0 Mar22 ?        00:00:01 /usr/sbin/sshd -D
+root      2377     1  0 Mar22 ?        00:00:15 /usr/sbin/crond -n
+root      2379     1  0 Mar22 ?        00:00:00 /usr/sbin/atd -f
+root      2389     1  0 Mar22 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220
+root      2390     1  0 Mar22 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      2423  2351  0 Mar22 ?        00:00:36 /usr/bin/ssm-agent-worker
+root      2434     1  0 Mar22 ?        00:00:00 /usr/sbin/acpid
+root      3595     2  0 20:58 ?        00:00:00 [kworker/u4:1-ev]
+root      4128  2367  0 21:00 ?        00:00:00 sshd: 280223 [priv]
+280223    4137  4128  0 21:00 ?        00:00:00 sshd: 280223@pts/2
+280223    4138  4137  0 21:00 pts/2    00:00:00 -bash
+root      5487  2367  0 21:03 ?        00:00:00 sshd: 280223 [priv]
+280223    5495  5487  0 21:03 ?        00:00:00 sshd: 280223@pts/3
+280223    5496  5495  0 21:03 pts/3    00:00:00 -bash
+root      7930     2  0 21:09 ?        00:00:00 [kworker/u4:2-ev]
+root     10049     2  0 21:14 ?        00:00:00 [kworker/0:1-cgr]
+postfix  10470  2300  0 21:15 ?        00:00:00 bounce -z -t unix -u
+postfix  10473  2300  0 21:15 ?        00:00:00 cleanup -z -t unix -u
+postfix  10475  2300  0 21:15 ?        00:00:00 bounce -z -t unix -u
+postfix  10477  2300  0 21:15 ?        00:00:00 local -t unix
+root     11185  1717  0 Apr01 ?        00:00:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 80 -container-ip 172.17.0.2 -container-port 80
+root     11191  1717  0 Apr01 ?        00:00:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 80 -container-ip 172.17.0.2 -container-port 80
+root     11205     1  0 Apr01 ?        00:00:19 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 5d2561c99dc45f4d1ae09308598add51137225566e10f78937660dcc36ced81c -address /run/containerd/containerd.sock
+root     11228 11205  0 Apr01 ?        00:00:00 nginx: master process nginx -g daemon off;
+101      11281 11228  0 Apr01 ?        00:00:00 nginx: worker process
+101      11282 11228  0 Apr01 ?        00:00:00 nginx: worker process
+root     12036  2367  0 21:18 ?        00:00:00 sshd: 280223 [priv]
+280223   12038 12036  0 21:18 ?        00:00:00 sshd: 280223@pts/4
+280223   12039 12038  0 21:18 pts/4    00:00:00 -bash
+root     12467     1  0 21:19 ?        00:00:00 /bin/bash /usr/bin/log4j-cve-2021-44228-hotpatch -w 1800 -m 10
+root     12647     2  0 21:20 ?        00:00:00 [kworker/1:3-cgr]
+root     13074     2  0 21:21 ?        00:00:00 [kworker/0:3-mm_]
+root     15176     2  0 21:26 ?        00:00:00 [kworker/1:2-cgr]
+root     15180     2  0 21:26 ?        00:00:00 [kworker/1:4-mm_]
+root     15883  2367  0 21:27 ?        00:00:00 sshd: 280223 [priv]
+280223   15914 15883  0 21:27 ?        00:00:00 sshd: 280223@pts/5
+280223   15923 15914  0 21:27 pts/5    00:00:00 -bash
+root     16486     2  0 21:29 ?        00:00:00 [kworker/0:0-eve]
+postfix  17759  2300  0 21:32 ?        00:00:00 trivial-rewrite -n rewrite -t unix -u
+postfix  18411  2300  0 21:33 ?        00:00:00 pickup -l -t unix -u
+root     18614 12467  0 21:34 ?        00:00:00 sleep 1
+280223   18616  5496  0 21:34 pts/3    00:00:00 ps -ef
+280223   18617  5496  0 21:34 pts/3    00:00:00 tail -129
+root     23794     2  0 20:30 ?        00:00:00 [kworker/0:2-cgr]
+root     25853  2367  0 20:34 ?        00:00:00 sshd: 280223 [priv]
+280223   25862 25853  0 20:34 ?        00:00:00 sshd: 280223@pts/1
+280223   25863 25862  0 20:34 pts/1    00:00:00 -bash
+postfix  28019  2300  0 20:40 ?        00:00:00 cleanup -z -t unix -u
+root     32764  2367  0 20:51 ?        00:00:00 sshd: 280223 [priv]
+129
+ 1050  ps -ef | tail -129 | wc -l >> newfile
+ 1051  cat newfile
+ 1052  history
+ 1053  history | tail -5
+ 1054  history | tail -5 >> newfile
